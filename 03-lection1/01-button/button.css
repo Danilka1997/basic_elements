@@ -1,0 +1,61 @@
+@import "./assets/css/main.css";
+.body__button{
+    margin: 10px;
+}
+.button_wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button{
+    border-radius: 8px;
+    width: 189px;
+    height: 48px;
+    padding: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: 0;
+}
+.button_size_s{
+    color: var(--white);
+    background: var(--blue);
+
+}
+.button_size_s:hover{
+   background: #2342C0;
+}
+.button_size_s:active{
+    background: #4263EB;
+    opacity: 0.5;
+}
+.button_size_m{
+    color: var(--white);
+    background: var(--purple);
+
+}
+.button_size_m:hover {
+    background: #5028C6;
+    cursor: pointer;
+}
+.button_size_m:active{
+    background: #7048E8;
+    opacity: 0.5;
+}
+.button_size_l{
+    --grey-4: #495057;
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+}
+.button_size_l:hover{
+    border: 1px solid #212429;
+    box-sizing: border-box;
+}
+.button_size_l:active{
+    border: 1px solid #F8F9FA;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,60 @@
+@import "./assets/css/main.css";
+.card__bloc{
+    width: 354px;
+    height: 185px;
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FFFFFF;
+    padding: 20px;
+
+}
+.card__bloc__title{
+    display: inline-block;
+}
+.span__card {
+    display: inline-block;
+}
+.card__preview {
+    display: flex;
+    justify-content: space-between;
+}
+.card__title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    color: #212429;
+    opacity: 0.8;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 6px 0;
+}
+.card__inline__text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #212429;
+    margin: 0;
+}
+.card__inline__link{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    color: #4263EB;
+}
+.chart{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0;
+
+}
+.card__wrapper-item {
+    flex-grow: 1;
+    background: #4263EB;
+    margin: 1px;
+}

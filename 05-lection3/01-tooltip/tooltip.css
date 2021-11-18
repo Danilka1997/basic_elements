@@ -1,0 +1,42 @@
+/*--tooltips--*/
+.body__tooltip{
+    margin: 0;
+    text-align: center;
+}
+.tooltip__wrapper{
+    display: inline-block;
+    position:relative;
+}
+.tooltip{
+    cursor: pointer;
+}
+.tooltip__wrapper_prompt{
+    width: 129px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: var(--blue);
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 8px);
+    white-space: nowrap;
+    display: none;
+}
+.tooltip__bubble{
+    color: var(--grey-2);
+    padding: 10px;
+}
+.tooltip__bubble:after{
+    content: "";
+    border: 10px solid transparent;
+    border-bottom: 8px solid #374fc7;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -100%);
+}
+.tooltip:hover ~ .tooltip__wrapper_prompt{
+    display: block;
+}
+/*--tooltip--*/

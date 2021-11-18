@@ -1,0 +1,33 @@
+@import "./assets/css/main.css";
+.skeleton{
+    width: 100%;
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+    border-radius: 8px;
+    align-items: baseline;
+    padding: 24px;
+}
+.skeleton__war{
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 24px;
+}
+.skeleton__avatar{
+    width: 64px;
+    height: 64px;
+    background:var(--grey-2) ;
+    border-radius: 100%;
+}
+.skeleton__wrapper{
+    padding-left: 16px;
+}
+.skeleton__step{
+    height: 20px;
+    background:var(--grey-2);
+    margin-bottom: 8px;
+}
+.skeleton__row{
+    height: 20px;
+    background:var(--grey-2);
+    margin-bottom: 8px;
+}
